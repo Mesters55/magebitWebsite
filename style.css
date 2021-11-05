@@ -1,0 +1,662 @@
+
+*{
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Arial';
+}
+
+
+img{
+  position: absolute;
+  width: 1240px;
+  height: 1080px;
+  left: 680px;
+  top: 0px;
+
+  background: url(.jpg);  
+}
+
+.background{
+    position: absolute;
+    width: 680px;
+    height: 1080px;
+    left: 0px;
+    top: 0px;
+
+    background: linear-gradient(180deg, #FFFFFF 0%, #F2F5FA 100%);
+}
+ 
+/*Navbar style*/
+
+header .nosaukums{
+    position: absolute;
+    width: 78px;
+    height: 16px;
+    left: 140px;
+    top: 117px;
+    color: black;
+    font-size: 17px;
+}
+
+header .pinaple{
+    position: absolute;
+    width: 25px;
+    height: 40px;
+    left: 100px;
+    top: 100px;
+}
+
+header .navbar .about{
+    position: absolute;
+    width: 42px;
+    height: 26px;
+    left: 331px;
+    top: 114px;
+
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+
+    color: #6A707B;
+}
+
+header .navbar .how{
+    position: absolute;
+    width: 110px;
+    height: 26px;
+    left: 403px;
+    top: 114px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #6A707B;
+}
+
+header .navbar .contact{
+    position: absolute;
+    width: 56px;
+    height: 26px;
+    left: 524px;
+    top: 114px;
+
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+
+    
+    color: #6A707B;
+}
+
+/*Subscribe or text css code*/
+
+  .subscribe h1{
+    position: absolute;
+    width: 399px;
+    height: 44px;
+    left: 140px;
+    top: 354px;
+    
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 44px;
+    /* identical to box height, or 137% */
+    
+    
+    color: #131821;
+  }
+
+  #sub{
+    display: block;
+  }
+
+  .subscribe p{
+    position: absolute;
+    width: 400px;
+    height: 56px;
+    left: 140px;
+    top: 419px;
+    
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 175% */
+    
+    
+    color: #6A707B;
+  }
+   
+    #thanks{
+      display: none;
+    }
+
+  .subscribed img{
+    position: absolute;
+    width: 44px;
+    height: 70px;
+    left: 140px;
+    top: 269px;   
+  }
+
+   .subscribed h1{
+    position: absolute;
+    width: 399px;
+    height: 44px;
+    left: 140px;
+    top: 354px;
+    
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 44px;
+    /* identical to box height, or 137% */
+    
+    
+    color: #131821;
+  }
+
+
+  .subscribed p{
+    position: absolute;
+    width: 400px;
+    height: 56px;
+    left: 140px;
+    top: 419px;
+    
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 175% */
+    
+    color: #6A707B;
+  }
+
+/*Email input css code*/
+
+  #ievadesLauks{
+    position: absolute;
+    width: 663px;
+    height: 70px;
+    left: 100px;
+    top: 539px;
+    background: #FFFFFF;
+    border: 1px solid #E3E3E4;
+    box-sizing: border-box; 
+       
+  }
+
+  input[value^="Type your email address here..."]{
+    position: absolute;
+    
+    padding-left: 43px;
+    
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color:#6A707B;
+
+  }
+
+  input[value^="Type your email address here..."]:hover{
+    color: #131821;
+  }
+
+  .line{
+    position: absolute;
+    width: 4px;
+    height: 70px;
+    left: 100px;
+    top: 539px;
+    
+    background: #4066A5;
+  }
+
+  #poga{
+    position: absolute;
+    width: 28px;
+    height: 18px;
+    left: 699px;
+    top: 567px;
+
+
+    cursor: pointer;
+    color: #F2F5FA;  
+    border-color: #f2f5fa;
+  }
+
+  input[value^="."]{
+    background-image: url(photos/ic_arrow.png);
+  }
+
+  /*Checkbox css code*/
+
+.container {
+  display: block;
+  cursor: pointer;
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  left: 140px;
+  top: 663px;
+
+  background: #FFFFFF;
+  border: 1px solid #E3E3E4;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+.container input:checked ~ .checkmark {
+  background-color: #4066A5;
+  border-radius: 3px;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+  .terms p{
+    position: absolute;
+    width: 359px;
+    height: 28px;
+    left: 181px;
+    top: 647px;
+
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+
+    color: #6A707B;    
+  }
+
+  .terms a{
+    color: black;
+    text-decoration: underline;
+  }
+  
+
+
+  /*footer*/
+
+  .hline{
+    position: relative;
+    width: 400px;
+    height: 1px;
+    left: 140px;
+    top: 740px;
+
+    background: #E3E3E4;
+  }
+  
+  .fac{
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    left: 218px;
+    top: 791px;
+
+    border: 2px solid #E3E3E4;    
+    height:43px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    width:43px;
+    
+
+  }
+
+  .fac:hover{
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    left: 218px;
+    top: 791px;
+
+    background: #4267B2;
+    box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+    transition: .3s linear;
+  }
+
+  .fac:active{
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    left: 218px;
+    top: 791px;
+    
+    background: #2F4A80;
+    box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+  }
+
+  .fa-facebook-f{
+    position: relative;
+    top: -1.5px;
+    left: -2px;
+    
+    
+    color: #131821;
+    opacity: 0.3;
+
+    border: 0px solid red;    
+    
+    border-radius:50%;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 16px;
+    padding-right: 16px;
+    
+
+  }
+
+  .fa-facebook-f:hover{
+    position: relative;
+    top: -1.5px;
+    left: -2px;
+    
+    
+    color: #FFFFFF;
+    opacity: 1;
+
+    border: 0px solid red;    
+    
+    border-radius:50%;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .ins{
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    left: 284px;
+    top: 791px;
+
+    border: 2px solid #E3E3E4;    
+    height:43px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    width:43px;
+    
+  }
+
+  .ins:hover{
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    left: 284px;
+    top: 791px;
+
+    background: #C13584;
+    box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+    transition: .2s linear;
+  }
+
+  .ins:active{
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    left: 284px;
+    top: 791px;
+
+    background: #8F2762;
+    box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+  }
+  
+
+  .fa-instagram{
+    position: relative;
+    top: -1.5px;
+    left: -2px;
+    
+    
+    color: #131821;
+    opacity: 0.3;
+
+    border: 0px solid red;    
+    
+    border-radius:50%;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .fa-instagram:hover{
+    position: relative;
+    top: -1.5px;
+    left: -2px;
+    
+    
+    color: #FFFFFF;
+    opacity: 1;
+
+    border: 0px solid red;    
+    
+    border-radius:50%;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+
+  .twi{
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    left: 350px;
+    top: 791px;
+
+    border: 2px solid #E3E3E4;    
+    height:43px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    width:43px;
+
+  }
+
+  .twi:hover{
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    left: 350px;
+    top: 791px;
+
+    background: #1DA1F2;
+    box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+    transition: .2s linear;
+  }
+
+  .twi:active{
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    left: 350px;
+    top: 791px;
+
+    background: #177FBF;
+    box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+  }
+
+  .fa-twitter{
+    position: relative;
+    top: -1.5px;
+    left: -2px;
+    
+    
+    color: #131821;
+    opacity: 0.3;
+
+    border: 0px solid red;    
+    
+    border-radius:50%;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .fa-twitter:hover{
+    position: relative;
+    top: -1.5px;
+    left: -2px;
+    
+    
+    color: #FFFFFF;
+    opacity: 1;
+
+    border: 0px solid red;    
+    
+    border-radius:50%;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+
+
+  .you{
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    left: 416px;
+    top: 791px;
+
+    border: 2px solid #E3E3E4;    
+    height:43px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    width:43px;
+
+  }
+
+  .you:hover{
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    left: 416px;
+    top: 791px;
+    
+    background: #FF0000;
+    box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+    transition: .2s linear;
+  }
+
+  .you:active{
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    left: 416px;
+    top: 791px;
+
+    background: #CC0000;
+    box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+  }
+
+  .fa-youtube{
+    position: relative;
+    top: -1.5px;
+    left: -2px;
+    
+    
+    color: #131821;
+    opacity: 0.3;
+
+    border: 0px solid red;    
+    
+    border-radius:50%;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+
+  .fa-youtube:hover{
+    position: relative;
+    top: -1.5px;
+    left: -2px;
+    
+    
+    color: #FFFFFF;
+    opacity: 1;
+
+    border: 0px solid red;    
+    
+    border-radius:50%;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+  
